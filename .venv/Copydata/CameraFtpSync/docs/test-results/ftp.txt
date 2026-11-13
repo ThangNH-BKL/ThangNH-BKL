@@ -1,0 +1,16 @@
+Runtime dependency: libcurl/8.23.0 Schannel
+PASS invalid password rejected
+Runtime dependency: libcurl/8.23.0 Schannel
+Pending/Failed: lsc.txt - Waiting for stable source
+@file {"confirmed":"","error":"Waiting for stable source","mtime":"2026-11-12T06:35:56Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Pending","size":7,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-1wyozxzv\\source\\lsc.txt"}
+Uploading: lsc.txt
+Verifying: lsc.txt
+@file {"confirmed":"2026-11-12T06:35:56Z","error":"","mtime":"2026-11-12T06:35:56Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Uploaded","size":7,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-1wyozxzv\\source\\lsc.txt"}
+@file {"confirmed":"2026-11-12T06:35:56Z","error":"","mtime":"2026-11-12T06:35:56Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Skipped/adopted","size":7,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-1wyozxzv\\source\\lsc.txt"}
+Pending/Failed: lsc.txt - Waiting for stable source
+@file {"confirmed":"2026-11-12T06:35:56Z","error":"Waiting for stable source","mtime":"2026-11-12T06:35:56Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Pending","size":15,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-1wyozxzv\\source\\lsc.txt"}
+Uploading: lsc.txt
+Verifying: lsc.txt
+@file {"confirmed":"2026-11-12T06:35:57Z","error":"","mtime":"2026-11-12T06:35:56Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Uploaded","size":15,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-1wyozxzv\\source\\lsc.txt"}
+PASS real FTP login, first upload without probe, nested parent creation, snapshot, skip, append, read-back, two-step publish and namespace guard
+PASS integration server final bytes and no leftover rollback/upload/probe files

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\CMakeFiles\9dd86bb88598ae2dfcb30e8effae33d8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{550F97C2-0D8C-3B2C-AA1B-76CB4EF59AB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

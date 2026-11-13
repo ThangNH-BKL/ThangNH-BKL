@@ -1,0 +1,21 @@
+# ninja log v6
+6	135	8161718075867517	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	872415a076a5c5a2
+6	135	8161718075867517	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	872415a076a5c5a2
+135	2027	8161718094757385	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	e9b772c56670d4ad
+135	2027	8161718094757385	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	e9b772c56670d4ad
+2027	2148	8161718095987086	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	9aed451e73efb540
+2027	2148	8161718095987086	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	9aed451e73efb540
+2169	2290	8161718097401223	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	ec21a3a63cc1407d
+2169	2290	8161718097401223	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	ec21a3a63cc1407d
+2290	2411	8161718098612017	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	e86b86b7094bc70f
+2290	2411	8161718098612017	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	e86b86b7094bc70f
+2412	2536	8161718099800768	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	64291e94bc05c3c1
+2412	2536	8161718099800768	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	64291e94bc05c3c1
+2536	2657	8161718101046147	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	db5eb8b327766d5d
+2536	2657	8161718101046147	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	db5eb8b327766d5d
+2657	2774	8161718102236656	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	e3921cd686176eeb
+2657	2774	8161718102236656	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	e3921cd686176eeb
+2774	2945	8161718103964562	CMakeFiles/curl-populate-complete	8d2aebfc1310ceb1
+2774	2945	8161718103964562	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	8d2aebfc1310ceb1
+2774	2945	8161718103964562	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	8d2aebfc1310ceb1
+2774	2945	8161718103964562	D:/Project_Python/.venv/Copydata/UI_FTP_Demo/Build/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	8d2aebfc1310ceb1

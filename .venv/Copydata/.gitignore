@@ -1,0 +1,9 @@
+.tools/
+.cache/
+.bootstrap.py
+.fix.py
+.more-tests.py
+.manifest.py
+.ui.py
+.zig-project.cmake
+zig-*.cmd

@@ -1,0 +1,46 @@
+PASS SHA256 known vector and streaming prefix
+PASS INI round trip and destination preview
+PASS invalid source, hostile path, plaintext and shared namespace rejected
+PASS URL userinfo and SFTP rejected; URL parsed
+PASS secret in config rejected
+PASS initial upload then unchanged cycles create no backup
+PASS append full snapshot and transient rollback cleanup
+PASS same size rewrite conflicts
+PASS initial identical adopt without upload
+PASS unknown and larger remote preserved
+PASS truncated local conflicts
+PASS external remote revision conflicts
+PASS source changing between observations is deferred
+PASS failure preserves final: upload
+PASS failure preserves final: size
+PASS failure preserves final: hash
+PASS failure preserves final: rename
+PASS failure preserves final: permission
+PASS crash after old rename restores old final
+PASS crash after publish reconciles checkpoint idempotently
+PASS manual destructive replacement retains owned backup
+PASS retention only deletes recorded owned verified backups
+PASS corrupt checkpoint uses known good backup
+PASS corrupt checkpoint without backup fails closed
+PASS future state schema rejected
+PASS partial journal tail preserved and complete records recover
+PASS single writer lock
+PASS station namespaces differ
+PASS Unicode local source and relative path
+PASS cancelled snapshot cannot publish
+PASS non-overlap guard
+PASS scheduler coalesces and pause/resume
+SKIP Windows credential API unavailable in session: Cannot save credential (Windows error=1312)
+PASS credential opt-in round trip, no config secret
+PASS recovery after published file before checkpoint on first upload
+PASS missing remote after confirmation conflicts
+PASS incomplete transaction from changed job blocks recovery
+PASS empty file cannot truncate confirmed remote
+PASS unaccepted publish gap blocks replacement
+PASS 1000 file scan filters and staging observations
+PASS transient retry reconciles staged file before retry
+PASS authentication failure stops attempt without retry
+PASS exclusive source lock is deferred without upload
+PASS unavailable spool fails safely
+PASS logs redact URL userinfo and password assignments
+44 tests passed

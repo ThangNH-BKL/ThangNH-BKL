@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/curl-populate
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/942164203faac027d00b344bc39e32ff/curl-populate.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/975c3606ee4ffe9834809e9c606a8127/curl-populate-complete.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-build.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-configure.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-download.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-install.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-mkdir.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-patch.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-test.rule
+D:/Project_Python/.venv/Copydata/build-vs-msvc/_deps/curl-subbuild/CMakeFiles/2be9dba4fdeefbfd8cbf5fd1389e69fd/curl-populate-update.rule

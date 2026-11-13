@@ -1,0 +1,6 @@
+﻿{
+ "version": 6,
+ "configurePresets": [{"name":"windows-release","generator":"Visual Studio 17 2022","architecture":"x64","binaryDir":"${sourceDir}/build-vs","cacheVariables":{"CAMERA_BUILD_GUI":"ON","CAMERA_BUILD_CURL":"ON","BUILD_TESTING":"ON"}}],
+ "buildPresets": [{"name":"windows-release","configurePreset":"windows-release","configuration":"Release"}],
+ "testPresets": [{"name":"windows-release","configurePreset":"windows-release","configuration":"Release","output":{"outputOnFailure":true}}]
+}

@@ -1,0 +1,966 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.60+43b635718 for .NET Framework
+      Build started 11/12/2026 1:07:16 PM.
+      
+      Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.58
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/3.31.6-msvc6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.60+43b635718 for .NET Framework
+      Build started 11/12/2026 1:07:21 PM.
+      
+      Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:03.53
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-panht2"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-panht2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-panht2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fd8c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:07:25 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-panht2\\cmTC_fd8c3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fd8c3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-panht2\\Debug\\".
+          Creating directory "cmTC_fd8c3.dir\\Debug\\cmTC_fd8c3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fd8c3.dir\\Debug\\cmTC_fd8c3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fd8c3.dir\\Debug\\cmTC_fd8c3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd8c3.dir\\Debug\\\\" /Fd"cmTC_fd8c3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd8c3.dir\\Debug\\\\" /Fd"cmTC_fd8c3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-panht2\\Debug\\cmTC_fd8c3.exe" /INCREMENTAL /ILK:"cmTC_fd8c3.dir\\Debug\\cmTC_fd8c3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-panht2/Debug/cmTC_fd8c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-panht2/Debug/cmTC_fd8c3.lib" /MACHINE:X64  /machine:x64 cmTC_fd8c3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fd8c3.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-panht2\\Debug\\cmTC_fd8c3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fd8c3.dir\\Debug\\cmTC_fd8c3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fd8c3.dir\\Debug\\cmTC_fd8c3.tlog\\cmTC_fd8c3.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-panht2\\cmTC_fd8c3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.94
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35229.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7rydvm"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7rydvm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7rydvm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_70a7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:07:29 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7rydvm\\cmTC_70a7f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_70a7f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7rydvm\\Debug\\".
+          Creating directory "cmTC_70a7f.dir\\Debug\\cmTC_70a7f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_70a7f.dir\\Debug\\cmTC_70a7f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_70a7f.dir\\Debug\\cmTC_70a7f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70a7f.dir\\Debug\\\\" /Fd"cmTC_70a7f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70a7f.dir\\Debug\\\\" /Fd"cmTC_70a7f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7rydvm\\Debug\\cmTC_70a7f.exe" /INCREMENTAL /ILK:"cmTC_70a7f.dir\\Debug\\cmTC_70a7f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7rydvm/Debug/cmTC_70a7f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7rydvm/Debug/cmTC_70a7f.lib" /MACHINE:X64  /machine:x64 cmTC_70a7f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_70a7f.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7rydvm\\Debug\\cmTC_70a7f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_70a7f.dir\\Debug\\cmTC_70a7f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_70a7f.dir\\Debug\\cmTC_70a7f.tlog\\cmTC_70a7f.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7rydvm\\cmTC_70a7f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.26
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35229.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build-vs/_deps/curl-src/CMake/Macros.cmake:51 (try_compile)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:224 (curl_internal_test)"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/CMakeFiles/CMakeTmp"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_WIN32_WINNT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_179be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:07:49 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-build\\CMakeFiles\\CMakeTmp\\cmTC_179be.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_179be.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Creating directory "cmTC_179be.dir\\Debug\\cmTC_179be.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_179be.dir\\Debug\\cmTC_179be.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_179be.dir\\Debug\\cmTC_179be.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_WINNT /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_179be.dir\\Debug\\\\" /Fd"cmTC_179be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-src\\CMake\\CurlTests.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_WINNT /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_179be.dir\\Debug\\\\" /Fd"cmTC_179be.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-src\\CMake\\CurlTests.c"
+          CurlTests.c
+          _WIN32_WINNT=0x0A00
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_179be.exe" /INCREMENTAL /ILK:"cmTC_179be.dir\\Debug\\cmTC_179be.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/CMakeFiles/CMakeTmp/Debug/cmTC_179be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/CMakeFiles/CMakeTmp/Debug/cmTC_179be.lib" /MACHINE:X64  /machine:x64 cmTC_179be.dir\\Debug\\CurlTests.obj
+          cmTC_179be.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_179be.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_179be.dir\\Debug\\cmTC_179be.tlog\\unsuccessfulbuild".
+          Touching "cmTC_179be.dir\\Debug\\cmTC_179be.tlog\\cmTC_179be.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-build\\CMakeFiles\\CMakeTmp\\cmTC_179be.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:03.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1661 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-xwitog"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-xwitog"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-xwitog'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_93f26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:07:53 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\cmTC_93f26.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_93f26.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\Debug\\".
+          Creating directory "cmTC_93f26.dir\\Debug\\cmTC_93f26.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_93f26.dir\\Debug\\cmTC_93f26.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_93f26.dir\\Debug\\cmTC_93f26.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93f26.dir\\Debug\\\\" /Fd"cmTC_93f26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\SIZEOF_SIZE_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93f26.dir\\Debug\\\\" /Fd"cmTC_93f26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\SIZEOF_SIZE_T.c"
+          SIZEOF_SIZE_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\Debug\\cmTC_93f26.exe" /INCREMENTAL /ILK:"cmTC_93f26.dir\\Debug\\cmTC_93f26.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-xwitog/Debug/cmTC_93f26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-xwitog/Debug/cmTC_93f26.lib" /MACHINE:X64  /machine:x64 cmTC_93f26.dir\\Debug\\SIZEOF_SIZE_T.obj
+          cmTC_93f26.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\Debug\\cmTC_93f26.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_93f26.dir\\Debug\\cmTC_93f26.tlog\\unsuccessfulbuild".
+          Touching "cmTC_93f26.dir\\Debug\\cmTC_93f26.tlog\\cmTC_93f26.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-xwitog\\cmTC_93f26.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1662 (check_type_size)"
+    checks:
+      - "Check size of ssize_t"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-lf2u1n"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-lf2u1n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SSIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-lf2u1n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd6fb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:07:57 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_dd6fb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\Debug\\".
+          Creating directory "cmTC_dd6fb.dir\\Debug\\cmTC_dd6fb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_dd6fb.dir\\Debug\\cmTC_dd6fb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dd6fb.dir\\Debug\\cmTC_dd6fb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd6fb.dir\\Debug\\\\" /Fd"cmTC_dd6fb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd6fb.dir\\Debug\\\\" /Fd"cmTC_dd6fb.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c"
+          SIZEOF_SSIZE_T.c
+        D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+        D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+        D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+        D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+        D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(33,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+          D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+          D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+          D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+          D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\SIZEOF_SSIZE_T.c(33,12): error C2065: 'ssize_t': undeclared identifier [D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-lf2u1n\\cmTC_dd6fb.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:01.11
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1663 (check_type_size)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-tolah9"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-tolah9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-tolah9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_52e5d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:07:58 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\cmTC_52e5d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_52e5d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\Debug\\".
+          Creating directory "cmTC_52e5d.dir\\Debug\\cmTC_52e5d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_52e5d.dir\\Debug\\cmTC_52e5d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_52e5d.dir\\Debug\\cmTC_52e5d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52e5d.dir\\Debug\\\\" /Fd"cmTC_52e5d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\SIZEOF_LONG_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52e5d.dir\\Debug\\\\" /Fd"cmTC_52e5d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\SIZEOF_LONG_LONG.c"
+          SIZEOF_LONG_LONG.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\Debug\\cmTC_52e5d.exe" /INCREMENTAL /ILK:"cmTC_52e5d.dir\\Debug\\cmTC_52e5d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-tolah9/Debug/cmTC_52e5d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-tolah9/Debug/cmTC_52e5d.lib" /MACHINE:X64  /machine:x64 cmTC_52e5d.dir\\Debug\\SIZEOF_LONG_LONG.obj
+          cmTC_52e5d.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\Debug\\cmTC_52e5d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_52e5d.dir\\Debug\\cmTC_52e5d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_52e5d.dir\\Debug\\cmTC_52e5d.tlog\\cmTC_52e5d.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-tolah9\\cmTC_52e5d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1664 (check_type_size)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7cxhbg"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7cxhbg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7cxhbg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0aaaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:02 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\cmTC_0aaaa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0aaaa.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\Debug\\".
+          Creating directory "cmTC_0aaaa.dir\\Debug\\cmTC_0aaaa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0aaaa.dir\\Debug\\cmTC_0aaaa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0aaaa.dir\\Debug\\cmTC_0aaaa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0aaaa.dir\\Debug\\\\" /Fd"cmTC_0aaaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\SIZEOF_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0aaaa.dir\\Debug\\\\" /Fd"cmTC_0aaaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\SIZEOF_LONG.c"
+          SIZEOF_LONG.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\Debug\\cmTC_0aaaa.exe" /INCREMENTAL /ILK:"cmTC_0aaaa.dir\\Debug\\cmTC_0aaaa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7cxhbg/Debug/cmTC_0aaaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-7cxhbg/Debug/cmTC_0aaaa.lib" /MACHINE:X64  /machine:x64 cmTC_0aaaa.dir\\Debug\\SIZEOF_LONG.obj
+          cmTC_0aaaa.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\Debug\\cmTC_0aaaa.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0aaaa.dir\\Debug\\cmTC_0aaaa.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0aaaa.dir\\Debug\\cmTC_0aaaa.tlog\\cmTC_0aaaa.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-7cxhbg\\cmTC_0aaaa.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1665 (check_type_size)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-m1afk6"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-m1afk6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-m1afk6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ac84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:05 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\cmTC_4ac84.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4ac84.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\Debug\\".
+          Creating directory "cmTC_4ac84.dir\\Debug\\cmTC_4ac84.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4ac84.dir\\Debug\\cmTC_4ac84.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4ac84.dir\\Debug\\cmTC_4ac84.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ac84.dir\\Debug\\\\" /Fd"cmTC_4ac84.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\SIZEOF_INT.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ac84.dir\\Debug\\\\" /Fd"cmTC_4ac84.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\SIZEOF_INT.c"
+          SIZEOF_INT.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\Debug\\cmTC_4ac84.exe" /INCREMENTAL /ILK:"cmTC_4ac84.dir\\Debug\\cmTC_4ac84.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-m1afk6/Debug/cmTC_4ac84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-m1afk6/Debug/cmTC_4ac84.lib" /MACHINE:X64  /machine:x64 cmTC_4ac84.dir\\Debug\\SIZEOF_INT.obj
+          cmTC_4ac84.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\Debug\\cmTC_4ac84.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4ac84.dir\\Debug\\cmTC_4ac84.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4ac84.dir\\Debug\\cmTC_4ac84.tlog\\cmTC_4ac84.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-m1afk6\\cmTC_4ac84.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.69
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1666 (check_type_size)"
+    checks:
+      - "Check size of __int64"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-t5ydq5"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-t5ydq5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF___INT64"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-t5ydq5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_582ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:08 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\cmTC_582ac.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_582ac.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\Debug\\".
+          Creating directory "cmTC_582ac.dir\\Debug\\cmTC_582ac.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_582ac.dir\\Debug\\cmTC_582ac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_582ac.dir\\Debug\\cmTC_582ac.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_582ac.dir\\Debug\\\\" /Fd"cmTC_582ac.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\SIZEOF___INT64.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_582ac.dir\\Debug\\\\" /Fd"cmTC_582ac.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\SIZEOF___INT64.c"
+          SIZEOF___INT64.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\Debug\\cmTC_582ac.exe" /INCREMENTAL /ILK:"cmTC_582ac.dir\\Debug\\cmTC_582ac.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-t5ydq5/Debug/cmTC_582ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-t5ydq5/Debug/cmTC_582ac.lib" /MACHINE:X64  /machine:x64 cmTC_582ac.dir\\Debug\\SIZEOF___INT64.obj
+          cmTC_582ac.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\Debug\\cmTC_582ac.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_582ac.dir\\Debug\\cmTC_582ac.tlog\\unsuccessfulbuild".
+          Touching "cmTC_582ac.dir\\Debug\\cmTC_582ac.tlog\\cmTC_582ac.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-t5ydq5\\cmTC_582ac.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.69
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1667 (check_type_size)"
+    checks:
+      - "Check size of time_t"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-htvh1s"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-htvh1s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_TIME_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-htvh1s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35162.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:12 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\cmTC_35162.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_35162.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\Debug\\".
+          Creating directory "cmTC_35162.dir\\Debug\\cmTC_35162.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_35162.dir\\Debug\\cmTC_35162.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_35162.dir\\Debug\\cmTC_35162.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35162.dir\\Debug\\\\" /Fd"cmTC_35162.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\SIZEOF_TIME_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35162.dir\\Debug\\\\" /Fd"cmTC_35162.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\SIZEOF_TIME_T.c"
+          SIZEOF_TIME_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\Debug\\cmTC_35162.exe" /INCREMENTAL /ILK:"cmTC_35162.dir\\Debug\\cmTC_35162.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-htvh1s/Debug/cmTC_35162.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-htvh1s/Debug/cmTC_35162.lib" /MACHINE:X64  /machine:x64 cmTC_35162.dir\\Debug\\SIZEOF_TIME_T.obj
+          cmTC_35162.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\Debug\\cmTC_35162.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_35162.dir\\Debug\\cmTC_35162.tlog\\unsuccessfulbuild".
+          Touching "cmTC_35162.dir\\Debug\\cmTC_35162.tlog\\cmTC_35162.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-htvh1s\\cmTC_35162.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1788 (check_type_size)"
+    checks:
+      - "Check size of ADDRESS_FAMILY"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-oo6tv6"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-oo6tv6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_ADDRESS_FAMILY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-oo6tv6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f340d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:15 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\cmTC_f340d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f340d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\Debug\\".
+          Creating directory "cmTC_f340d.dir\\Debug\\cmTC_f340d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f340d.dir\\Debug\\cmTC_f340d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f340d.dir\\Debug\\cmTC_f340d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f340d.dir\\Debug\\\\" /Fd"cmTC_f340d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\SIZEOF_ADDRESS_FAMILY.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f340d.dir\\Debug\\\\" /Fd"cmTC_f340d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\SIZEOF_ADDRESS_FAMILY.c"
+          SIZEOF_ADDRESS_FAMILY.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\Debug\\cmTC_f340d.exe" /INCREMENTAL /ILK:"cmTC_f340d.dir\\Debug\\cmTC_f340d.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-oo6tv6/Debug/cmTC_f340d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-oo6tv6/Debug/cmTC_f340d.lib" /MACHINE:X64  /machine:x64 cmTC_f340d.dir\\Debug\\SIZEOF_ADDRESS_FAMILY.obj
+          cmTC_f340d.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\Debug\\cmTC_f340d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f340d.dir\\Debug\\cmTC_f340d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f340d.dir\\Debug\\cmTC_f340d.tlog\\cmTC_f340d.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-oo6tv6\\cmTC_f340d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1827 (check_type_size)"
+    checks:
+      - "Check size of off_t"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-pj7xn1"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-pj7xn1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_OFF_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-pj7xn1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d3640.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:19 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\cmTC_d3640.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d3640.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\Debug\\".
+          Creating directory "cmTC_d3640.dir\\Debug\\cmTC_d3640.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d3640.dir\\Debug\\cmTC_d3640.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d3640.dir\\Debug\\cmTC_d3640.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3640.dir\\Debug\\\\" /Fd"cmTC_d3640.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\SIZEOF_OFF_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3640.dir\\Debug\\\\" /Fd"cmTC_d3640.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\SIZEOF_OFF_T.c"
+          SIZEOF_OFF_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\Debug\\cmTC_d3640.exe" /INCREMENTAL /ILK:"cmTC_d3640.dir\\Debug\\cmTC_d3640.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-pj7xn1/Debug/cmTC_d3640.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-pj7xn1/Debug/cmTC_d3640.lib" /MACHINE:X64  /machine:x64 cmTC_d3640.dir\\Debug\\SIZEOF_OFF_T.obj
+          cmTC_d3640.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\Debug\\cmTC_d3640.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d3640.dir\\Debug\\cmTC_d3640.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d3640.dir\\Debug\\cmTC_d3640.tlog\\cmTC_d3640.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-pj7xn1\\cmTC_d3640.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1844 (check_type_size)"
+    checks:
+      - "Check size of curl_off_t"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-83vcot"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-83vcot"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_CURL_OFF_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-83vcot'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05a80.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:22 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\cmTC_05a80.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_05a80.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\Debug\\".
+          Creating directory "cmTC_05a80.dir\\Debug\\cmTC_05a80.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_05a80.dir\\Debug\\cmTC_05a80.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_05a80.dir\\Debug\\cmTC_05a80.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-src\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05a80.dir\\Debug\\\\" /Fd"cmTC_05a80.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\SIZEOF_CURL_OFF_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-src\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05a80.dir\\Debug\\\\" /Fd"cmTC_05a80.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\SIZEOF_CURL_OFF_T.c"
+          SIZEOF_CURL_OFF_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\Debug\\cmTC_05a80.exe" /INCREMENTAL /ILK:"cmTC_05a80.dir\\Debug\\cmTC_05a80.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-83vcot/Debug/cmTC_05a80.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-83vcot/Debug/cmTC_05a80.lib" /MACHINE:X64  /machine:x64 cmTC_05a80.dir\\Debug\\SIZEOF_CURL_OFF_T.obj
+          cmTC_05a80.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\Debug\\cmTC_05a80.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_05a80.dir\\Debug\\cmTC_05a80.tlog\\unsuccessfulbuild".
+          Touching "cmTC_05a80.dir\\Debug\\cmTC_05a80.tlog\\cmTC_05a80.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-83vcot\\cmTC_05a80.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build-vs/_deps/curl-src/CMakeLists.txt:1846 (check_type_size)"
+    checks:
+      - "Check size of curl_socket_t"
+    directories:
+      source: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-0s29tm"
+      binary: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-0s29tm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_CURL_SOCKET_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-0s29tm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1ab37.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.60+43b635718 for .NET Framework
+        Build started 11/12/2026 1:08:26 PM.
+        
+        Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\cmTC_1ab37.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1ab37.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\Debug\\".
+          Creating directory "cmTC_1ab37.dir\\Debug\\cmTC_1ab37.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1ab37.dir\\Debug\\cmTC_1ab37.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1ab37.dir\\Debug\\cmTC_1ab37.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-src\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ab37.dir\\Debug\\\\" /Fd"cmTC_1ab37.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\SIZEOF_CURL_SOCKET_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35229 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\_deps\\curl-src\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ab37.dir\\Debug\\\\" /Fd"cmTC_1ab37.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\SIZEOF_CURL_SOCKET_T.c"
+          SIZEOF_CURL_SOCKET_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\Debug\\cmTC_1ab37.exe" /INCREMENTAL /ILK:"cmTC_1ab37.dir\\Debug\\cmTC_1ab37.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-0s29tm/Debug/cmTC_1ab37.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CMakeFiles/CMakeScratch/TryCompile-0s29tm/Debug/cmTC_1ab37.lib" /MACHINE:X64  /machine:x64 cmTC_1ab37.dir\\Debug\\SIZEOF_CURL_SOCKET_T.obj
+          cmTC_1ab37.vcxproj -> D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\Debug\\cmTC_1ab37.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1ab37.dir\\Debug\\cmTC_1ab37.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1ab37.dir\\Debug\\cmTC_1ab37.tlog\\cmTC_1ab37.lastbuildstate".
+        Done Building Project "D:\\Tool\\Copydata\\CameraFtpSync\\CameraFtpSync-source-1.0.0\\CameraFtpSync\\build-vs\\CMakeFiles\\CMakeScratch\\TryCompile-0s29tm\\cmTC_1ab37.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.92
+        
+      exitCode: 0
+...

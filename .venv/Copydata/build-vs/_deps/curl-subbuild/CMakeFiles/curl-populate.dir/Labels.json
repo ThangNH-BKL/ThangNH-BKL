@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/8d62bf9ce84a02d99e9c1eff219944a3/curl-populate.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/99e918495f0a1da2f05c5fa89483995d/curl-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-build.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-download.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-install.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-test.rule"
+		},
+		{
+			"file" : "D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/14e9b45dd7642856125aebab082d0838/curl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}

@@ -1,0 +1,128 @@
+[I 2026-11-12 14:24:27] concurrency model: async
+[I 2026-11-12 14:24:27] masquerade (NAT) address: None
+[I 2026-11-12 14:24:27] passive ports: None
+[I 2026-11-12 14:24:27] >>> starting FTP server on 127.0.0.1:2121, pid=10664 <<<
+[I 2026-11-12 14:57:15] 127.0.0.1:54549-[] FTP session opened (connect)
+[I 2026-11-12 14:57:15] 127.0.0.1:54549-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:57:15] 127.0.0.1:54549-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:57:15] 127.0.0.1:54549-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:57:44] 127.0.0.1:54558-[] FTP session opened (connect)
+[I 2026-11-12 14:57:44] 127.0.0.1:54558-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:57:44] 127.0.0.1:54558-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:57:44] 127.0.0.1:54558-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:57:44] 127.0.0.1:54561-[] FTP session opened (connect)
+[I 2026-11-12 14:57:44] 127.0.0.1:54561-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:57:44] 127.0.0.1:54561-[demo] MKD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 257
+[I 2026-11-12 14:57:44] 127.0.0.1:54561-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:57:44] 127.0.0.1:54561-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:18] 127.0.0.1:54577-[] FTP session opened (connect)
+[I 2026-11-12 14:58:18] 127.0.0.1:54577-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:18] 127.0.0.1:54577-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54577-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:54580-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:54580-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:54580-[demo] MKD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 550 'File exists.'
+[I 2026-11-12 14:58:19] 127.0.0.1:54580-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54580-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:54581-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:54581-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:54581-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54581-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:54584-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:54584-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:54584-[demo] MKD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 550 'File exists.'
+[I 2026-11-12 14:58:19] 127.0.0.1:54584-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54584-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:54585-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:54585-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:54585-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54585-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54586-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:54586-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:54586-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54586-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:54586-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:54585-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59814-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59814-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59814-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59814-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59815-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59815-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59815-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59815-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59815-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59814-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59818-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59818-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59818-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59818-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59819-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59819-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59819-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59819-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59819-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59818-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59822-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59822-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59822-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59822-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59825-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59825-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59825-[demo] MKD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 550 'File exists.'
+[I 2026-11-12 14:58:19] 127.0.0.1:59825-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59825-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59826-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59826-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59826-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59826-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59826-[demo] STOR D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001\.hello.txt.uploading.DEMO001.284118b1043b5a12319ed9d54450f0b7 completed=1 bytes=72 seconds=0.003
+[I 2026-11-12 14:58:19] 127.0.0.1:59826-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59829-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59829-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59829-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59829-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59829-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59830-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59830-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59830-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59830-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59830-[demo] RETR D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001\.hello.txt.uploading.DEMO001.284118b1043b5a12319ed9d54450f0b7 completed=1 bytes=72 seconds=0.012
+[I 2026-11-12 14:58:19] 127.0.0.1:59830-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59833-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59833-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59833-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59833-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59834-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59834-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59834-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59834-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59834-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59833-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59837-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59837-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59837-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59837-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59838-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59838-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59838-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59838-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59838-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59837-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59841-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59841-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59841-[demo] RNFR D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001\.hello.txt.uploading.DEMO001.284118b1043b5a12319ed9d54450f0b7 350
+[I 2026-11-12 14:58:19] 127.0.0.1:59841-[demo] RNTO D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001\hello.txt 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59841-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59841-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59842-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59842-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59842-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59842-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59842-[demo] FTP session closed (disconnect).
+[I 2026-11-12 14:58:19] 127.0.0.1:59843-[] FTP session opened (connect)
+[I 2026-11-12 14:58:19] 127.0.0.1:59843-[demo] USER 'demo' logged in.
+[I 2026-11-12 14:58:19] 127.0.0.1:59843-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59843-[demo] CWD D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001 250
+[I 2026-11-12 14:58:19] 127.0.0.1:59843-[demo] RETR D:\Project_Python\.venv\Copydata\UI_FTP_Demo\FakeFTP\DEMO001\hello.txt completed=1 bytes=72 seconds=0.002
+[I 2026-11-12 14:58:19] 127.0.0.1:59843-[demo] FTP session closed (disconnect).

@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/CMakeFiles/curl-populate
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/CMakeFiles/curl-populate.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule
+D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule

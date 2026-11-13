@@ -1,0 +1,10 @@
+^D:\TOOL\COPYDATA\CAMERAFTPSYNC\CAMERAFTPSYNC-SOURCE-1.0.0\CAMERAFTPSYNC\BUILD-VS\CMAKEFILES\4D3317DD290ED31F3563C5178D5A6C69\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync -BD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/CameraFtpSync.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

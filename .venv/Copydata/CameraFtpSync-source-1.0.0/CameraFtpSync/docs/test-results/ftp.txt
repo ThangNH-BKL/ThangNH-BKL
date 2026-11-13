@@ -1,0 +1,14 @@
+PASS invalid password rejected
+Pending/Failed: lsc.txt - Waiting for stable source
+@file {"confirmed":"","error":"Waiting for stable source","mtime":"2026-11-12T05:10:19Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Pending","size":7,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-tmhpawcl\\source\\lsc.txt"}
+Uploading: lsc.txt
+Verifying: lsc.txt
+@file {"confirmed":"2026-11-12T05:10:19Z","error":"","mtime":"2026-11-12T05:10:19Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Uploaded","size":7,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-tmhpawcl\\source\\lsc.txt"}
+@file {"confirmed":"2026-11-12T05:10:19Z","error":"","mtime":"2026-11-12T05:10:19Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Skipped/adopted","size":7,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-tmhpawcl\\source\\lsc.txt"}
+Pending/Failed: lsc.txt - Waiting for stable source
+@file {"confirmed":"2026-11-12T05:10:19Z","error":"Waiting for stable source","mtime":"2026-11-12T05:10:19Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Pending","size":15,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-tmhpawcl\\source\\lsc.txt"}
+Uploading: lsc.txt
+Verifying: lsc.txt
+@file {"confirmed":"2026-11-12T05:10:20Z","error":"","mtime":"2026-11-12T05:10:19Z","relative":"lsc.txt","remote":"/PC01/lsc.txt","result":"Uploaded","size":15,"source":"C:\\Users\\Nguyen Huu Thang\\AppData\\Local\\Temp\\camera-ftp-tmhpawcl\\source\\lsc.txt"}
+PASS real FTP login, probe, snapshot, skip, append, read-back and two-step publish
+PASS integration server final bytes and no leftover rollback/upload/probe files

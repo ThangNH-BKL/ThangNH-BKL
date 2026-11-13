@@ -1,0 +1,75 @@
+[2026-11-13T06:34:05.157Z] [INFO] AI workers disabled (default) - all workers run local-only. Enable with `daemon start --headless`, daemon.aiWorkers.enabled=true in ~/.claude-flow/config.json (a project config cannot enable it), or RUFLO_DAEMON_AI_WORKERS=1 (#2661)
+[2026-11-13T06:34:10.837Z] [INFO] AI workers disabled (default) - all workers run local-only. Enable with `daemon start --headless`, daemon.aiWorkers.enabled=true in ~/.claude-flow/config.json (a project config cannot enable it), or RUFLO_DAEMON_AI_WORKERS=1 (#2661)
+[2026-11-13T06:34:10.838Z] [INFO] Scheduled map (interval: 900s, first run in 0s)
+[2026-11-13T06:34:10.838Z] [INFO] Scheduled audit (interval: 600s, first run in 120s)
+[2026-11-13T06:34:10.839Z] [INFO] Scheduled optimize (interval: 900s, first run in 240s)
+[2026-11-13T06:34:10.839Z] [INFO] Scheduled consolidate (interval: 1800s, first run in 360s)
+[2026-11-13T06:34:10.839Z] [INFO] Scheduled testgaps (interval: 1200s, first run in 480s)
+[2026-11-13T06:34:10.839Z] [INFO] Scheduled backup (interval: 86400s, first run in 600s)
+[2026-11-13T06:34:10.840Z] [INFO] Scheduled harness (interval: 21600s, first run in 720s)
+[2026-11-13T06:34:10.840Z] [INFO] Lifecycle monitor active (workspace-removal, ttl=43200s, idle=1800s)
+[2026-11-13T06:34:10.842Z] [INFO] Daemon started (PID: 9832, CPUs: 20, workers: 7, maxCpuLoad: 16, minFreeMemoryPercent: 10%)
+[2026-11-13T06:34:10.845Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-13T06:34:10.848Z] [INFO] Worker map completed in 4ms
+[2026-11-13T06:36:10.873Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T06:36:10.879Z] [INFO] Worker audit completed in 31ms
+[2026-11-13T06:36:50.285Z] [INFO] AI workers disabled (default) - all workers run local-only. Enable with `daemon start --headless`, daemon.aiWorkers.enabled=true in ~/.claude-flow/config.json (a project config cannot enable it), or RUFLO_DAEMON_AI_WORKERS=1 (#2661)
+[2026-11-13T06:38:10.875Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-13T06:38:10.882Z] [INFO] Worker optimize completed in 32ms
+[2026-11-13T06:40:10.881Z] [INFO] Starting worker: consolidate (1/2 concurrent)
+[2026-11-13T06:40:10.893Z] [INFO] Consolidate worker: D:\Project_Python\.venv\Copydata\.swarm\memory.db skipped (no-db)
+[2026-11-13T06:40:10.894Z] [INFO] Consolidate worker: D:\Project_Python\.venv\Copydata\.swarm\agentdb-memory.db skipped (no-db)
+[2026-11-13T06:40:10.894Z] [INFO] Consolidate worker: distillation skipped (no-db)
+[2026-11-13T06:40:10.899Z] [INFO] Worker consolidate completed in 43ms
+[2026-11-13T06:42:10.872Z] [INFO] Starting worker: testgaps (1/2 concurrent)
+[2026-11-13T06:42:10.878Z] [INFO] Worker testgaps completed in 31ms
+[2026-11-13T06:44:10.845Z] [INFO] Starting worker: backup (1/2 concurrent)
+[2026-11-13T06:44:10.856Z] [INFO] Worker backup completed in 15ms
+[2026-11-13T06:46:10.848Z] [INFO] Starting worker: harness (1/2 concurrent)
+[2026-11-13T06:46:10.857Z] [INFO] Worker harness completed in 11ms
+[2026-11-13T06:46:10.991Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T06:46:10.995Z] [INFO] Worker audit completed in 6ms
+[2026-11-13T06:49:11.544Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-13T06:49:11.548Z] [INFO] Worker map completed in 7ms
+[2026-11-13T06:53:10.949Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-13T06:53:10.953Z] [INFO] Worker optimize completed in 7ms
+[2026-11-13T06:56:11.054Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T06:56:11.060Z] [INFO] Worker audit completed in 32ms
+[2026-11-13T07:02:10.922Z] [INFO] Starting worker: testgaps (1/2 concurrent)
+[2026-11-13T07:02:10.929Z] [INFO] Worker testgaps completed in 14ms
+[2026-11-13T07:04:11.752Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-13T07:04:11.758Z] [INFO] Worker map completed in 30ms
+[2026-11-13T07:06:11.154Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T07:06:11.162Z] [INFO] Worker audit completed in 18ms
+[2026-11-13T07:08:11.052Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-13T07:08:11.059Z] [INFO] Worker optimize completed in 11ms
+[2026-11-13T07:10:10.940Z] [INFO] Starting worker: consolidate (1/2 concurrent)
+[2026-11-13T07:10:10.946Z] [INFO] Consolidate worker: D:\Project_Python\.venv\Copydata\.swarm\memory.db skipped (no-db)
+[2026-11-13T07:10:10.947Z] [INFO] Consolidate worker: D:\Project_Python\.venv\Copydata\.swarm\agentdb-memory.db skipped (no-db)
+[2026-11-13T07:10:10.947Z] [INFO] Consolidate worker: distillation skipped (no-db)
+[2026-11-13T07:10:10.950Z] [INFO] Worker consolidate completed in 14ms
+[2026-11-13T07:16:11.296Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T07:16:11.307Z] [INFO] Worker audit completed in 20ms
+[2026-11-13T07:19:11.812Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-13T07:19:11.818Z] [INFO] Worker map completed in 31ms
+[2026-11-13T07:22:11.162Z] [INFO] Starting worker: testgaps (1/2 concurrent)
+[2026-11-13T07:22:11.169Z] [INFO] Worker testgaps completed in 12ms
+[2026-11-13T07:23:11.147Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-13T07:23:11.153Z] [INFO] Worker optimize completed in 9ms
+[2026-11-13T07:26:11.513Z] [INFO] Worker audit deferred: Memory too low: 9.8% free
+[2026-11-13T07:34:11.920Z] [INFO] Starting worker: map (1/2 concurrent)
+[2026-11-13T07:34:11.976Z] [INFO] Worker map completed in 78ms
+[2026-11-13T07:34:12.266Z] [INFO] Worker audit deferred: Memory too low: 10.0% free
+[2026-11-13T07:34:42.284Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T07:34:42.292Z] [INFO] Worker audit completed in 12ms
+[2026-11-13T07:36:11.526Z] [INFO] Worker audit deferred: Memory too low: 9.5% free
+[2026-11-13T07:38:11.208Z] [INFO] Worker optimize deferred: Memory too low: 9.8% free
+[2026-11-13T07:40:10.997Z] [INFO] Starting worker: consolidate (1/2 concurrent)
+[2026-11-13T07:40:11.006Z] [INFO] Consolidate worker: D:\Project_Python\.venv\Copydata\.swarm\memory.db skipped (no-db)
+[2026-11-13T07:40:11.006Z] [INFO] Consolidate worker: D:\Project_Python\.venv\Copydata\.swarm\agentdb-memory.db skipped (no-db)
+[2026-11-13T07:40:11.007Z] [INFO] Consolidate worker: distillation skipped (no-db)
+[2026-11-13T07:40:11.010Z] [INFO] Worker consolidate completed in 24ms
+[2026-11-13T07:40:11.240Z] [INFO] Starting worker: audit (1/2 concurrent)
+[2026-11-13T07:40:11.243Z] [INFO] Worker audit completed in 6ms
+[2026-11-13T07:40:11.267Z] [INFO] Starting worker: optimize (1/2 concurrent)
+[2026-11-13T07:40:11.269Z] [INFO] Worker optimize completed in 5ms

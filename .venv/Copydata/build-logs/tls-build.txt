@@ -1,0 +1,10 @@
+[1/10] Building CXX object CMakeFiles\CameraTransport.dir\src\Transport\CurlFtpClient.cpp.obj
+[2/10] Building CXX object CMakeFiles\CameraCore.dir\src\Core\Platform.cpp.obj
+[3/10] Linking CXX static library CameraCore.lib
+[4/10] Linking CXX static library CameraTransport.lib
+[5/10] Linking CXX executable tls-fix\CameraResourceTests.exe
+[6/10] Building CXX object CMakeFiles\CameraCoreTests.dir\tests\CoreTests.cpp.obj
+[7/10] Linking CXX executable tls-fix\CameraFtpIntegration.exe
+[8/10] Linking CXX executable tls-fix\CameraCoreTests.exe
+[9/10] Building CXX object CMakeFiles\CameraFtpSync.dir\src\Gui\App.cpp.obj
+[10/10] Linking CXX executable tls-fix\CameraFtpSync.exe

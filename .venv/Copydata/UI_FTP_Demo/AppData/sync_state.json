@@ -1,0 +1,16 @@
+{
+  "backups": [],
+  "files": {
+    "{\"destination\":\"/DEMO001/\",\"host\":\"127.0.0.1\",\"port\":2121,\"security\":\"PlainFTP\",\"source\":\"D:\\\\Project_Python\\\\.venv\\\\Copydata\\\\UI_FTP_Demo\\\\Source\",\"username\":\"demo\",\"version\":2}|hello.txt|/DEMO001/hello.txt": {
+      "confirmed": "2026-11-12T07:58:19Z",
+      "final": "/DEMO001/hello.txt",
+      "hash": "b0bed2bc427f97006ed7e5fc02f01fc66496335c55f16c8a09382131905ea8d1",
+      "identity": "2183970472:131072:134479",
+      "key": "{\"destination\":\"/DEMO001/\",\"host\":\"127.0.0.1\",\"port\":2121,\"security\":\"PlainFTP\",\"source\":\"D:\\\\Project_Python\\\\.venv\\\\Copydata\\\\UI_FTP_Demo\\\\Source\",\"username\":\"demo\",\"version\":2}|hello.txt|/DEMO001/hello.txt",
+      "mtime": 13438941853307838,
+      "size": 72,
+      "status": "confirmed"
+    }
+  },
+  "schema_version": 1
+}

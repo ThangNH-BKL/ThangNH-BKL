@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project_Python\.venv\Copydata\build-vs-msvc\_deps\curl-subbuild\CMakeFiles\942164203faac027d00b344bc39e32ff\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C411F955-B952-377D-9AF1-3220F47E2165}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

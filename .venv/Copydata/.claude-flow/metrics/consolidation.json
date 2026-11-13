@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-11-13T07:40:11.007Z",
+  "distillationEnabled": true,
+  "patternsConsolidated": 0,
+  "memoryCleaned": 0,
+  "duplicatesRemoved": 0,
+  "episodes": 0,
+  "episodeEmbeddings": 0,
+  "patternEmbeddings": 0,
+  "causalEdges": 0,
+  "promoted": 0,
+  "byProvenance": {},
+  "namespaces": [],
+  "dryRun": false,
+  "corrupt": false,
+  "skipped": "no-db",
+  "stores": [
+    {
+      "dbPath": "D:\\Project_Python\\.venv\\Copydata\\.swarm\\memory.db",
+      "processed": 0,
+      "patterns": 0,
+      "skipped": "no-db"
+    },
+    {
+      "dbPath": "D:\\Project_Python\\.venv\\Copydata\\.swarm\\agentdb-memory.db",
+      "processed": 0,
+      "patterns": 0,
+      "skipped": "no-db"
+    }
+  ]
+}

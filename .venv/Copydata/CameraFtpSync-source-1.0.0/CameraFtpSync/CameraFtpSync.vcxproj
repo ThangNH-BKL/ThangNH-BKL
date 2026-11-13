@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <ItemGroup Label="ProjectConfigurations">
+  <ProjectConfiguration Include="Debug|x64"><Configuration>Debug</Configuration><Platform>x64</Platform></ProjectConfiguration>
+  <ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration>
+ </ItemGroup>
+ <PropertyGroup Label="Globals"><ProjectGuid>{BC62D90F-4908-40EA-881D-98938CF1385A}</ProjectGuid><Keyword>MakeFileProj</Keyword><WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion></PropertyGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Label="Configuration"><ConfigurationType>Makefile</ConfigurationType><PlatformToolset>v143</PlatformToolset></PropertyGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+ <PropertyGroup>
+  <NMakeBuildCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(ProjectDir)build.ps1" -Configuration $(Configuration)</NMakeBuildCommandLine>
+  <NMakeReBuildCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(ProjectDir)build.ps1" -Configuration $(Configuration) -Rebuild</NMakeReBuildCommandLine>
+  <NMakeCleanCommandLine>powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$(ProjectDir)build.ps1" -Configuration $(Configuration) -Clean</NMakeCleanCommandLine>
+  <NMakeOutput>$(ProjectDir)build-vs\$(Configuration)\CameraFtpSync.exe</NMakeOutput>
+  <NMakeIncludeSearchPath>$(ProjectDir)src;$(ProjectDir)third_party;$(ProjectDir)build-vs\_deps\curl-src\include</NMakeIncludeSearchPath>
+  <NMakePreprocessorDefinitions>UNICODE;_UNICODE;_AFXDLL;NOMINMAX</NMakePreprocessorDefinitions>
+ </PropertyGroup>
+ <ItemGroup><ClCompile Include="src\Core\*.cpp"/><ClCompile Include="src\Gui\*.cpp"/><ClCompile Include="src\Transport\*.cpp"/><ClCompile Include="tests\*.cpp"/><ClInclude Include="src\Core\*.h"/><ClInclude Include="src\Transport\*.h"/><None Include="src\Gui\App.rc"/><None Include="CMakeLists.txt"/></ItemGroup>
+ <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

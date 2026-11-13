@@ -1,0 +1,53 @@
+{
+  "agents": {
+    "agent-1794553077704-0ibm7n": {
+      "agentId": "agent-1794553077704-0ibm7n",
+      "agentType": "architect",
+      "name": "architect",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {},
+      "createdAt": "2026-11-13T06:57:57.705Z",
+      "model": "opus",
+      "modelRoutedBy": "default"
+    },
+    "agent-1794553078869-gyrx42": {
+      "agentId": "agent-1794553078869-gyrx42",
+      "agentType": "coder",
+      "name": "coder",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {},
+      "createdAt": "2026-11-13T06:57:58.869Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    },
+    "agent-1794553079689-yrp4kf": {
+      "agentId": "agent-1794553079689-yrp4kf",
+      "agentType": "tester",
+      "name": "tester",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {},
+      "createdAt": "2026-11-13T06:57:59.690Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    },
+    "agent-1794553080374-i4g5gp": {
+      "agentId": "agent-1794553080374-i4g5gp",
+      "agentType": "reviewer",
+      "name": "reviewer",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {},
+      "createdAt": "2026-11-13T06:58:00.374Z",
+      "model": "sonnet",
+      "modelRoutedBy": "default"
+    }
+  },
+  "version": "3.0.0"
+}

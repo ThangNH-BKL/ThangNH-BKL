@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-12T05:10:22.586992+00:00",
+  "build_directory": "D:\\Project_Python\\.venv\\Copydata\\CameraFtpSync\\build-core",
+  "compiler_cache_evidence": [
+    "CMAKE_BUILD_TYPE:STRING=Release",
+    "CMAKE_CXX_COMPILER:STRING=D:/Project_Python/.venv/Copydata/zig-cxx.cmd"
+  ],
+  "results": [
+    {
+      "suite": "core",
+      "exit_code": 0,
+      "skipped_subchecks": [
+        "SKIP Windows credential API unavailable in session: Cannot save credential (Windows error=1312)"
+      ]
+    },
+    {
+      "suite": "resources",
+      "exit_code": 0,
+      "skipped_subchecks": []
+    },
+    {
+      "suite": "ftp",
+      "exit_code": 0,
+      "skipped_subchecks": []
+    },
+    {
+      "suite": "audit",
+      "exit_code": 0,
+      "skipped_subchecks": []
+    },
+    {
+      "suite": "ftps",
+      "exit_code": 0,
+      "skipped_subchecks": [
+        "SKIP certificate-specific assertion: TLS handshake failed before peer verification"
+      ]
+    }
+  ]
+}

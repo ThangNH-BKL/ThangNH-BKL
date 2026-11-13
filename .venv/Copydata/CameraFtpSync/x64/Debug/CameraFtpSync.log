@@ -1,0 +1,25 @@
+﻿  Engine.cpp
+D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\src\Core\Core.h(2,10): error C1083: Cannot open include file: 'json.hpp': No such file or directory
+  (compiling source file 'src/Core/Engine.cpp')
+  
+  Platform.cpp
+D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\src\Core\Core.h(2,10): error C1083: Cannot open include file: 'json.hpp': No such file or directory
+  (compiling source file 'src/Core/Platform.cpp')
+  
+  App.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\atlmfc\include\afx.h(24,1): error C1189: #error:  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+  (compiling source file 'src/Gui/App.cpp')
+  
+  CurlFtpClient.cpp
+D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\src\Core\Core.h(2,10): error C1083: Cannot open include file: 'json.hpp': No such file or directory
+  (compiling source file 'src/Transport/CurlFtpClient.cpp')
+  
+  CoreTests.cpp
+D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\tests\CoreTests.cpp(1,10): error C1083: Cannot open include file: 'Core.h': No such file or directory
+  Integration.cpp
+D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\src\Core\Core.h(2,10): error C1083: Cannot open include file: 'json.hpp': No such file or directory
+  (compiling source file 'tests/Integration.cpp')
+  
+  Resources.cpp
+D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\tests\Resources.cpp(1,10): error C1083: Cannot open include file: 'Core.h': No such file or directory
+  Generating Code...

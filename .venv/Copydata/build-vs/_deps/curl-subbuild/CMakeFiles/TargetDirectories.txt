@@ -1,0 +1,3 @@
+D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-subbuild/CMakeFiles/ZERO_CHECK.dir

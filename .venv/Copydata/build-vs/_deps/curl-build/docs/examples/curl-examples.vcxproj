@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA291F9A-2AC3-39D7-ABDE-902E51D56CD9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>curl-examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/docs/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync -BD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs --check-stamp-file D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/docs/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\Makefile.inc.cmake;D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\Makefile.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/docs/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync -BD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs --check-stamp-file D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/docs/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\Makefile.inc.cmake;D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\Makefile.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/docs/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync -BD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs --check-stamp-file D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/docs/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\Makefile.inc.cmake;D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\Makefile.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-src/docs/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync -BD:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs --check-stamp-file D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs/_deps/curl-build/docs/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\Makefile.inc.cmake;D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\Makefile.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\ZERO_CHECK.vcxproj">
+      <Project>{2640C09C-6073-33A2-9F17-D197F10D542C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-10-at-a-time.vcxproj">
+      <Project>{70EC37C3-8E36-3D1C-B67D-CD44AD72860F}</Project>
+      <Name>curl-example-10-at-a-time</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-address-scope.vcxproj">
+      <Project>{B9E4B0A9-D302-3042-BFCF-551878CD93B0}</Project>
+      <Name>curl-example-address-scope</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-altsvc.vcxproj">
+      <Project>{F5986014-4D84-3201-8478-6FBC3DD646A1}</Project>
+      <Name>curl-example-altsvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-anyauthput.vcxproj">
+      <Project>{5857DB5E-BD8C-316B-A35E-922F70750B77}</Project>
+      <Name>curl-example-anyauthput</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-block_ip.vcxproj">
+      <Project>{8A910B4E-1DD9-313F-ACD5-874DCC695E64}</Project>
+      <Name>curl-example-block_ip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-certinfo.vcxproj">
+      <Project>{06542D51-F0EE-3331-A3A1-87952146D651}</Project>
+      <Name>curl-example-certinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-chkspeed.vcxproj">
+      <Project>{95F5A7C3-3322-3101-BD4F-43B5DFD3C034}</Project>
+      <Name>curl-example-chkspeed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-connect-to.vcxproj">
+      <Project>{08326237-5D6E-3709-9818-2005A809AB4D}</Project>
+      <Name>curl-example-connect-to</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-cookie_interface.vcxproj">
+      <Project>{1BA081EC-85A0-3E14-A410-E34055A8E8A3}</Project>
+      <Name>curl-example-cookie_interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-debug.vcxproj">
+      <Project>{30CB7CF7-DE02-3954-A0F0-29BB8BC0B58F}</Project>
+      <Name>curl-example-debug</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-default-scheme.vcxproj">
+      <Project>{135699EB-FAF7-36D9-B17C-B00936E3AAB2}</Project>
+      <Name>curl-example-default-scheme</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-externalsocket.vcxproj">
+      <Project>{0C689765-5697-37D8-BEBB-CF6D0B137B5F}</Project>
+      <Name>curl-example-externalsocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-fileupload.vcxproj">
+      <Project>{388246CF-D767-3B11-A87E-6E4F22733259}</Project>
+      <Name>curl-example-fileupload</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftp-wildcard.vcxproj">
+      <Project>{8ECC4F7D-A29B-3F9E-8AAC-476C22A8DEAF}</Project>
+      <Name>curl-example-ftp-wildcard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpget.vcxproj">
+      <Project>{174BACE8-FF65-39FD-A844-A6469D445E75}</Project>
+      <Name>curl-example-ftpget</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpgetinfo.vcxproj">
+      <Project>{A0484D48-C7D5-3201-AA16-5910D6E7A9F2}</Project>
+      <Name>curl-example-ftpgetinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpgetresp.vcxproj">
+      <Project>{5ED1C3AC-EBCE-3BD1-8958-4E874B2412FB}</Project>
+      <Name>curl-example-ftpgetresp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpsget.vcxproj">
+      <Project>{196A447A-361A-32C9-92BF-23D086996357}</Project>
+      <Name>curl-example-ftpsget</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpupload.vcxproj">
+      <Project>{53A6117A-D89A-3A3C-AB7B-EA235033E496}</Project>
+      <Name>curl-example-ftpupload</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpuploadfrommem.vcxproj">
+      <Project>{CF379710-EBB3-336D-9AC5-F439D15B336D}</Project>
+      <Name>curl-example-ftpuploadfrommem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ftpuploadresume.vcxproj">
+      <Project>{951BBD5E-A5FA-3AFD-92E8-EC4C55BE31A6}</Project>
+      <Name>curl-example-ftpuploadresume</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-getinfo.vcxproj">
+      <Project>{50F0570B-06AD-3F30-8640-F1C18B2BBD91}</Project>
+      <Name>curl-example-getinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-getinmemory.vcxproj">
+      <Project>{1BDD6C59-C4A6-3971-936A-58E53FAD2E47}</Project>
+      <Name>curl-example-getinmemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-getredirect.vcxproj">
+      <Project>{683AB27B-D322-3CDF-9D72-33E6BBA7D689}</Project>
+      <Name>curl-example-getredirect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-getreferrer.vcxproj">
+      <Project>{E5789EF3-238F-3C95-9455-9C2975CDAAA8}</Project>
+      <Name>curl-example-getreferrer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-headerapi.vcxproj">
+      <Project>{0CA04640-66BF-3A86-82F1-9F54CD84392D}</Project>
+      <Name>curl-example-headerapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-hsts-preload.vcxproj">
+      <Project>{CE99C5F3-F0A7-3DD1-993E-9AE42FE868ED}</Project>
+      <Name>curl-example-hsts-preload</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http-options.vcxproj">
+      <Project>{E58DA551-C8B6-3BD7-A1D7-FC8B04DD2401}</Project>
+      <Name>curl-example-http-options</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http-post.vcxproj">
+      <Project>{039DB65C-AC10-323B-8F81-B1C2966428BD}</Project>
+      <Name>curl-example-http-post</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http2-download.vcxproj">
+      <Project>{7D38F03E-2ECF-3DF1-AE73-635F7AF28D35}</Project>
+      <Name>curl-example-http2-download</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http2-pushinmemory.vcxproj">
+      <Project>{1C1E6614-2C2E-30AF-AF3D-485D88E65278}</Project>
+      <Name>curl-example-http2-pushinmemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http2-serverpush.vcxproj">
+      <Project>{96856FB3-1F5C-3542-B10D-70493FFD2AFD}</Project>
+      <Name>curl-example-http2-serverpush</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http2-upload.vcxproj">
+      <Project>{E8108C19-6FD0-3423-9A5F-385F37DBDCAC}</Project>
+      <Name>curl-example-http2-upload</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http3.vcxproj">
+      <Project>{5FE66A33-30A8-3290-8BA4-E9716FD1C1A9}</Project>
+      <Name>curl-example-http3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-http3-present.vcxproj">
+      <Project>{66825725-6154-39C4-9D59-E5810DF4B9F3}</Project>
+      <Name>curl-example-http3-present</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-httpcustomheader.vcxproj">
+      <Project>{6399505F-E3C4-3173-82F6-89620A9CF0DE}</Project>
+      <Name>curl-example-httpcustomheader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-httpput.vcxproj">
+      <Project>{D27F6CF6-58BF-3081-9456-DB77E3CFC831}</Project>
+      <Name>curl-example-httpput</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-httpput-postfields.vcxproj">
+      <Project>{2DD015B3-6A7F-3A1B-A455-F3B47455A606}</Project>
+      <Name>curl-example-httpput-postfields</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-https.vcxproj">
+      <Project>{3307F247-65BE-3D7C-BC6F-3E10CA9EE4F0}</Project>
+      <Name>curl-example-https</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-append.vcxproj">
+      <Project>{8EA82B0E-2BAD-326F-9A10-48FC31DE168C}</Project>
+      <Name>curl-example-imap-append</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-authzid.vcxproj">
+      <Project>{7E6EB3B2-2C68-3135-84F5-63238882CC9B}</Project>
+      <Name>curl-example-imap-authzid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-copy.vcxproj">
+      <Project>{AAB00276-0D57-33B3-B76D-DAD4A17B0485}</Project>
+      <Name>curl-example-imap-copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-create.vcxproj">
+      <Project>{15F1A7E3-78EF-3DB2-B708-93653E45633E}</Project>
+      <Name>curl-example-imap-create</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-delete.vcxproj">
+      <Project>{796B31E0-8B8D-3FFA-BAF4-4465143E9FB3}</Project>
+      <Name>curl-example-imap-delete</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-examine.vcxproj">
+      <Project>{0C38D5F9-B666-3428-ADE6-A326E4FB1B63}</Project>
+      <Name>curl-example-imap-examine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-fetch.vcxproj">
+      <Project>{6DEA6B92-A9C5-3613-8228-8B61B58279B9}</Project>
+      <Name>curl-example-imap-fetch</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-list.vcxproj">
+      <Project>{E31D790F-806C-36E6-8435-DA89AC764A68}</Project>
+      <Name>curl-example-imap-list</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-lsub.vcxproj">
+      <Project>{3CE54D24-98AA-377B-AB2C-CA38E519749D}</Project>
+      <Name>curl-example-imap-lsub</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-multi.vcxproj">
+      <Project>{8F1BBDF5-B876-3F43-8D13-A35BA8AF0D55}</Project>
+      <Name>curl-example-imap-multi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-noop.vcxproj">
+      <Project>{A4A0C22A-EF35-3F4B-87DC-F42566E8F692}</Project>
+      <Name>curl-example-imap-noop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-search.vcxproj">
+      <Project>{A6A3EB61-30B6-3E7C-93BB-500F8A914BA8}</Project>
+      <Name>curl-example-imap-search</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-ssl.vcxproj">
+      <Project>{F758ABDA-9187-3066-A392-A1BD7A096ED0}</Project>
+      <Name>curl-example-imap-ssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-store.vcxproj">
+      <Project>{FDB58E09-BE62-3E0E-A970-BA5DB31D56AD}</Project>
+      <Name>curl-example-imap-store</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-imap-tls.vcxproj">
+      <Project>{B129E00C-2F72-3542-ADB3-DEA63275E216}</Project>
+      <Name>curl-example-imap-tls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-interface.vcxproj">
+      <Project>{B6BB748F-9E05-3EB8-9613-F43C6115E205}</Project>
+      <Name>curl-example-interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-ipv6.vcxproj">
+      <Project>{75065DA1-DC20-3F07-920F-FFD510C210B0}</Project>
+      <Name>curl-example-ipv6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-keepalive.vcxproj">
+      <Project>{5EF0DB3C-85B0-37FD-8C49-37EA78672C94}</Project>
+      <Name>curl-example-keepalive</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-localport.vcxproj">
+      <Project>{5F0CEEBE-FDB5-30A7-B17F-2ADDAB3466EB}</Project>
+      <Name>curl-example-localport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-maxconnects.vcxproj">
+      <Project>{5DFCECBC-B205-3F4C-A7C7-BCDAAEFE19CF}</Project>
+      <Name>curl-example-maxconnects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-app.vcxproj">
+      <Project>{46BCDD78-3707-3CCD-A542-1B512366299B}</Project>
+      <Name>curl-example-multi-app</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-debugcallback.vcxproj">
+      <Project>{2C462C9C-54C7-3AEE-B970-4E2D9629579D}</Project>
+      <Name>curl-example-multi-debugcallback</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-double.vcxproj">
+      <Project>{277F7BDD-CC6A-3773-BA0E-E83B620BF4A3}</Project>
+      <Name>curl-example-multi-double</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-formadd.vcxproj">
+      <Project>{7CA61E0A-8ECA-30E5-B9BA-EE850D2F9BD9}</Project>
+      <Name>curl-example-multi-formadd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-legacy.vcxproj">
+      <Project>{5414B2C6-C89C-3EC5-A770-D3F0D200C17D}</Project>
+      <Name>curl-example-multi-legacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-post.vcxproj">
+      <Project>{F8967ED1-FA35-3A44-AC83-A1A16497F779}</Project>
+      <Name>curl-example-multi-post</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-multi-single.vcxproj">
+      <Project>{2A7058D8-DB36-3E9F-A07C-64D22600C6A7}</Project>
+      <Name>curl-example-multi-single</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-netrc.vcxproj">
+      <Project>{5C557ED6-21BA-3579-8136-35A974862D9F}</Project>
+      <Name>curl-example-netrc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-parseurl.vcxproj">
+      <Project>{8B9289A7-A07C-3EAC-9EE2-B199E693D1D0}</Project>
+      <Name>curl-example-parseurl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-persistent.vcxproj">
+      <Project>{7BA137AF-DC25-3130-8795-BB4184D72989}</Project>
+      <Name>curl-example-persistent</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-authzid.vcxproj">
+      <Project>{F275D360-8F7D-3274-8F2E-8EFB994A7748}</Project>
+      <Name>curl-example-pop3-authzid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-dele.vcxproj">
+      <Project>{FF37031B-B421-3CD9-AC81-066DBABD4B11}</Project>
+      <Name>curl-example-pop3-dele</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-list.vcxproj">
+      <Project>{DBC99ED1-9818-378E-97E5-737AE23026B8}</Project>
+      <Name>curl-example-pop3-list</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-multi.vcxproj">
+      <Project>{5E7A9FA5-0FD9-3494-AE41-3C6BB1359471}</Project>
+      <Name>curl-example-pop3-multi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-noop.vcxproj">
+      <Project>{8BFD5C94-298B-3F77-A023-9D9DE9BB8668}</Project>
+      <Name>curl-example-pop3-noop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-retr.vcxproj">
+      <Project>{EA69B51C-EAF8-3628-AFAA-AFB658368DC9}</Project>
+      <Name>curl-example-pop3-retr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-ssl.vcxproj">
+      <Project>{B99E9695-1372-34B2-9068-BA64DB7E597F}</Project>
+      <Name>curl-example-pop3-ssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-stat.vcxproj">
+      <Project>{B6B16131-5606-34BE-8985-1A49007C1F1F}</Project>
+      <Name>curl-example-pop3-stat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-tls.vcxproj">
+      <Project>{B627DF83-6435-3C8A-AE0A-E8D6FBE7F6FA}</Project>
+      <Name>curl-example-pop3-tls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-top.vcxproj">
+      <Project>{CF178140-D4E9-3A6A-AC1E-83998664C979}</Project>
+      <Name>curl-example-pop3-top</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-pop3-uidl.vcxproj">
+      <Project>{529F29A9-12D8-3736-80B4-8048A5FB993F}</Project>
+      <Name>curl-example-pop3-uidl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-post-callback.vcxproj">
+      <Project>{6F26CBAE-D669-33E9-9BF2-CC82E9BF7E32}</Project>
+      <Name>curl-example-post-callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-postinmemory.vcxproj">
+      <Project>{8EF71623-5B80-3983-83EE-25D0BBE4FEDA}</Project>
+      <Name>curl-example-postinmemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-postit2.vcxproj">
+      <Project>{F802D5A0-F95D-3DB1-9035-2741A276A8E8}</Project>
+      <Name>curl-example-postit2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-postit2-formadd.vcxproj">
+      <Project>{C61D8EB2-A707-39B2-ABCE-566EE99A22AD}</Project>
+      <Name>curl-example-postit2-formadd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-progressfunc.vcxproj">
+      <Project>{B2507883-6570-37CB-84DD-9BEF5CDADF66}</Project>
+      <Name>curl-example-progressfunc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-protofeats.vcxproj">
+      <Project>{EA976A2A-E02F-3249-A042-F15FFAF6CCCB}</Project>
+      <Name>curl-example-protofeats</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-range.vcxproj">
+      <Project>{2C99AA1A-B3A0-33C3-9EDA-FF83A5C10372}</Project>
+      <Name>curl-example-range</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-resolve.vcxproj">
+      <Project>{53CC3C90-89D1-3499-95F7-DB949060BC50}</Project>
+      <Name>curl-example-resolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-rtsp-options.vcxproj">
+      <Project>{94707681-1CE2-3517-A3DD-261B2FD18BAB}</Project>
+      <Name>curl-example-rtsp-options</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-sendrecv.vcxproj">
+      <Project>{F001C88C-2114-3B06-9C2A-CF4A15C83037}</Project>
+      <Name>curl-example-sendrecv</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-sepheaders.vcxproj">
+      <Project>{592B8A4F-1933-391B-ABA7-E6977EDCA78B}</Project>
+      <Name>curl-example-sepheaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-sftpget.vcxproj">
+      <Project>{7257B53C-6945-3637-8953-DDE3A4233395}</Project>
+      <Name>curl-example-sftpget</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-sftpuploadresume.vcxproj">
+      <Project>{812C30A5-5596-3E49-B43F-7C115AADB669}</Project>
+      <Name>curl-example-sftpuploadresume</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-shared-connection-cache.vcxproj">
+      <Project>{CA54D1B0-0637-3CFE-A633-5396E72DCDA7}</Project>
+      <Name>curl-example-shared-connection-cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-simple.vcxproj">
+      <Project>{BB011B60-ECD0-3FBB-AD45-19CEF3E6EF74}</Project>
+      <Name>curl-example-simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-simplepost.vcxproj">
+      <Project>{5FE2C742-22BB-3C68-874B-4E78D26C46C4}</Project>
+      <Name>curl-example-simplepost</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-simplessl.vcxproj">
+      <Project>{E1FFA3ED-1F9A-37FC-A423-E7034E8826D0}</Project>
+      <Name>curl-example-simplessl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-authzid.vcxproj">
+      <Project>{8BC1F6B0-6649-3C85-A605-E81E7D28F4F8}</Project>
+      <Name>curl-example-smtp-authzid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-expn.vcxproj">
+      <Project>{7699F5A9-A9A3-3847-8F4D-C126262E27DB}</Project>
+      <Name>curl-example-smtp-expn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-mail.vcxproj">
+      <Project>{3606A1CD-DD78-31A2-8E67-C1794C3EEE65}</Project>
+      <Name>curl-example-smtp-mail</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-mime.vcxproj">
+      <Project>{7BF55DB3-6F7E-358F-B914-59CE771E6C61}</Project>
+      <Name>curl-example-smtp-mime</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-multi.vcxproj">
+      <Project>{B1FDC797-113A-3B07-A3D6-3897F5AC2693}</Project>
+      <Name>curl-example-smtp-multi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-ssl.vcxproj">
+      <Project>{BA89D4B3-D8BA-3EC6-8D28-E2F074B12E61}</Project>
+      <Name>curl-example-smtp-ssl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-tls.vcxproj">
+      <Project>{E406DD42-2480-3F8F-9B83-99FB475B7B5C}</Project>
+      <Name>curl-example-smtp-tls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-smtp-vrfy.vcxproj">
+      <Project>{E0E8CE18-613F-3206-B023-7E9829ABB3CE}</Project>
+      <Name>curl-example-smtp-vrfy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-sslbackend.vcxproj">
+      <Project>{27CB586E-B4A1-3492-A723-E9965388837E}</Project>
+      <Name>curl-example-sslbackend</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-unixsocket.vcxproj">
+      <Project>{64286609-A01C-3B98-B516-FE1E68265058}</Project>
+      <Name>curl-example-unixsocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-url2file.vcxproj">
+      <Project>{85B12EEF-400E-3385-8120-1AFFE76C81D9}</Project>
+      <Name>curl-example-url2file</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-urlapi.vcxproj">
+      <Project>{83A49991-00A9-35CA-A8F6-AECC435D878C}</Project>
+      <Name>curl-example-urlapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-websocket.vcxproj">
+      <Project>{B46C5571-6B20-3660-92C6-353EB84A530E}</Project>
+      <Name>curl-example-websocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-build\docs\examples\curl-example-websocket-cb.vcxproj">
+      <Project>{2313022A-C118-3206-9757-ACC510E701AA}</Project>
+      <Name>curl-example-websocket-cb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

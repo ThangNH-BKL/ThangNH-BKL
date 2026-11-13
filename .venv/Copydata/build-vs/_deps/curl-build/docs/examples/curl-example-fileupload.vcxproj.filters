@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\fileupload.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-vs\_deps\curl-src\docs\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{522E316F-E757-34BE-9BAE-4E793601C79D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

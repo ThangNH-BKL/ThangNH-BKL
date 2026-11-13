@@ -1,0 +1,94 @@
+Start testing: Nov 12 16:04 SE Asia Standard Time
+----------------------------------------------------------
+1/2 Testing: core_fault_injection
+1/2 Test: core_fault_injection
+Command: "D:/Project_Python/.venv/Copydata/build-ninja/tls-fix/CameraCoreTests.exe"
+Directory: D:/Project_Python/.venv/Copydata/build-ninja
+"core_fault_injection" start time: Nov 12 16:04 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+PASS SHA256 known vector and streaming prefix
+PASS INI round trip and destination preview
+PASS FTPS verification bypass is explicit and persists for both modes
+PASS invalid source, hostile path, plaintext and shared namespace rejected
+PASS URL userinfo and SFTP rejected; URL parsed
+PASS secret in config rejected
+PASS initial upload then unchanged cycles create no backup
+PASS append full snapshot and transient rollback cleanup
+PASS same size rewrite conflicts
+PASS initial identical adopt without upload
+PASS unknown and larger remote preserved
+PASS truncated local conflicts
+PASS external remote revision conflicts
+PASS source changing between observations is deferred
+PASS failure preserves final: upload
+PASS failure preserves final: size
+PASS failure preserves final: hash
+PASS failure preserves final: rename
+PASS failure preserves final: permission
+PASS crash after old rename restores old final
+PASS crash after publish reconciles checkpoint idempotently
+PASS manual destructive replacement retains owned backup
+PASS retention only deletes recorded owned verified backups
+PASS corrupt checkpoint uses known good backup
+PASS corrupt checkpoint without backup fails closed
+PASS future state schema rejected
+PASS partial journal tail preserved and complete records recover
+PASS single writer lock
+PASS station namespaces differ
+PASS Unicode local source and relative path
+PASS cancelled snapshot cannot publish
+PASS non-overlap guard
+PASS scheduler coalesces and pause/resume
+SKIP Windows credential API unavailable in session: Cannot save credential (Windows error=1312)
+PASS no config secret; secure-store roundtrip optional in supported logon
+PASS recovery after published file before checkpoint on first upload
+PASS missing remote after confirmation conflicts
+PASS incomplete transaction from changed job blocks recovery
+PASS empty file cannot truncate confirmed remote
+PASS unaccepted publish gap blocks replacement
+PASS 1000 file scan filters and staging observations
+PASS truly partial STOR retries using a new unique staging name
+PASS authentication failure stops attempt without retry
+PASS exclusive source lock is deferred without upload
+PASS unavailable spool fails safely
+PASS logs redact URL userinfo and password assignments
+PASS failed second rename restores old final before returning
+PASS legacy Size profile cannot publish same-size staged corruption
+PASS matching reset source and external remote cannot bypass checkpoint
+PASS external append matching local still conflicts without journal authority
+PASS future state version is preserved even with an older valid backup
+PASS future INI version rejected without rewriting settings
+PASS unknown journal phase is rejected before remote mutation
+PASS journal identity cannot change between phases
+PASS tampered rollback path cannot touch another station
+PASS retention rejects foreign backup path despite matching bytes
+PASS different account and TLS mode have distinct checkpoint identities
+PASS unexpected publish exception also restores old final immediately
+57 tests passed
+<end of output>
+Test time =   7.50 sec
+----------------------------------------------------------
+Test Passed.
+"core_fault_injection" end time: Nov 12 16:04 SE Asia Standard Time
+"core_fault_injection" time elapsed: 00:00:07
+----------------------------------------------------------
+
+2/2 Testing: streaming_resources
+2/2 Test: streaming_resources
+Command: "D:/Project_Python/.venv/Copydata/build-ninja/tls-fix/CameraResourceTests.exe"
+Directory: D:/Project_Python/.venv/Copydata/build-ninja
+"streaming_resources" start time: Nov 12 16:04 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+PASS large_file_bytes=4295032832 sha256=bba36e59cfe7128ca94bcdd249819426b61b38eb289784e98d245a8356263607 peak_working_set=7708672 elapsed_ms=5573
+PASS 1000_metadata_entries bytes=100781 atomic_save_ms=29
+<end of output>
+Test time =   5.86 sec
+----------------------------------------------------------
+Test Passed.
+"streaming_resources" end time: Nov 12 16:04 SE Asia Standard Time
+"streaming_resources" time elapsed: 00:00:05
+----------------------------------------------------------
+
+End testing: Nov 12 16:04 SE Asia Standard Time

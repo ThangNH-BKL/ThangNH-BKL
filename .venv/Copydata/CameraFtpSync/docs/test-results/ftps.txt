@@ -1,0 +1,4 @@
+Runtime dependency: libcurl/8.23.0 Schannel
+PASS TLS fails closed: FTPS TLS rejected (curl code=35): check server certificate, hostname and Windows trusted CA
+SKIP certificate-specific assertion: TLS handshake failed before peer verification
+PASS untrusted FTPS endpoint receives no uploaded files; trust stores unchanged

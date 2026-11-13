@@ -1,0 +1,36 @@
+2026-11-12T07:57:15Z INFO sync Testing connection...
+2026-11-12T07:57:15Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:57:15Z INFO sync Ready: đăng nhập và liệt kê thành công. SIZE/rename cần kiểm tra riêng.
+2026-11-12T07:57:44Z INFO sync Running: đang quét / phục hồi
+2026-11-12T07:57:44Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:57:44Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:57:44Z WARN sync Pending/Failed: hello.txt - Waiting for stable source
+2026-11-12T07:57:44Z WARN sync Pending: hello.txt Waiting for stable source
+2026-11-12T07:57:44Z WARN sync Pending: scanned=1 skipped=0 uploaded=0 failed=0 conflict=0 waiting=1 bytes=0 retries=0; next UTC=Paused
+2026-11-12T07:58:18Z INFO sync Running: đang quét / phục hồi
+2026-11-12T07:58:18Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Uploading: hello.txt
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Verifying: hello.txt
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Transfer bytes (up/down): 0 / 0 ; 0 / 0 ; bytes/s=0
+2026-11-12T07:58:19Z INFO sync Uploaded: hello.txt 
+2026-11-12T07:58:19Z INFO sync Success: scanned=1 skipped=0 uploaded=1 failed=0 conflict=0 waiting=0 bytes=72 retries=0; next UTC=Paused

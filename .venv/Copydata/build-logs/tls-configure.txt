@@ -1,0 +1,20 @@
+-- Using CMake version 3.31.6-msvc6
+-- curl version=[8.23.0]
+-- CMake platform flags: WIN32 MSVC-1944
+-- Performing Test HAVE_WIN32_WINNT
+-- Performing Test HAVE_WIN32_WINNT - Success
+-- Found _WIN32_WINNT=0x0a00
+-- Picky compiler options: -W4 -Wall -wd4061 -wd4191 -wd4255 -wd4464 -wd4548 -wd4574 -wd4668 -wd4710 -wd4711 -wd4746 -wd4820 -wd5045
+-- Could NOT find Perl (missing: PERL_EXECUTABLE) 
+CMake Warning at D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-src/CMakeLists.txt:575 (message):
+  Perl not found.  Cannot build manuals.
+
+
+-- Could NOT find NGHTTP2 (missing: NGHTTP2_INCLUDE_DIR NGHTTP2_LIBRARY) 
+-- Could NOT find Libidn2 (missing: LIBIDN2_INCLUDE_DIR LIBIDN2_LIBRARY) 
+-- Protocols: ftp ftps
+-- Features: AsynchDNS IPv6 Kerberos Largefile SPNEGO SSL SSPI threadsafe UnixSockets
+-- Enabled SSL backends: Schannel
+-- Configuring done (2.1s)
+-- Generating done (0.4s)
+-- Build files have been written to: D:/Project_Python/.venv/Copydata/build-ninja

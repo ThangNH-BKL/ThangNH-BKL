@@ -1,0 +1,1 @@
+PASS source/dependency hashes and no database source/API/runtime dependency in audited inventory

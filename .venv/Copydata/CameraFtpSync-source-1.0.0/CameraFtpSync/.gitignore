@@ -1,0 +1,13 @@
+build*/
+*.o
+*.obj
+*.exe
+*.pdb
+.vs/
+_CPack_Packages/
+*.zip
+
+.test-tools/
+.test-cache/
+
+build-logs/

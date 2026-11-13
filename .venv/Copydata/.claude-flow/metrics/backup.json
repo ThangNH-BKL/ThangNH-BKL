@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-11-13T06:44:10.852Z",
+  "backedUp": false,
+  "backups": [
+    {
+      "backedUp": false,
+      "skipped": "no-db",
+      "dbPath": "D:\\Project_Python\\.venv\\Copydata\\.swarm\\memory.db"
+    },
+    {
+      "backedUp": false,
+      "skipped": "no-db",
+      "dbPath": "D:\\Project_Python\\.venv\\Copydata\\.swarm\\agentdb-memory.db"
+    }
+  ],
+  "sizeBytes": 0,
+  "rotatedAway": 0,
+  "skipped": "no-db"
+}

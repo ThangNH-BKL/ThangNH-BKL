@@ -1,0 +1,21 @@
+# ninja log v6
+7	142	8161702778125265	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	554f63d20e074791
+2780	2944	8161702806202150	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	686394542ae9c546
+7	142	8161702778125265	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	554f63d20e074791
+2780	2944	8161702806202150	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	686394542ae9c546
+143	2780	8161702804548258	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	9a12ebce22a8b3a
+143	2780	8161702804548258	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	9a12ebce22a8b3a
+2944	3073	8161702807484732	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	b7de7135bb7388cb
+3436	3552	8161702812279281	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	e0c020256d6a82a4
+3436	3552	8161702812279281	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	e0c020256d6a82a4
+2944	3073	8161702807484732	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	b7de7135bb7388cb
+3073	3191	8161702808653521	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	93a755af7aac765b
+3073	3191	8161702808653521	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	93a755af7aac765b
+3191	3313	8161702809901292	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	9614b12a238b3927
+3191	3313	8161702809901292	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	9614b12a238b3927
+3313	3436	8161702811109998	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	d76aaad15305651d
+3313	3436	8161702811109998	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	d76aaad15305651d
+3553	3713	8161702813878913	CMakeFiles/curl-populate-complete	f3026f9f6d7a748d
+3553	3713	8161702813878913	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	f3026f9f6d7a748d
+3553	3713	8161702813878913	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	f3026f9f6d7a748d
+3553	3713	8161702813878913	D:/Project_Python/.venv/Copydata/build-ninja/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	f3026f9f6d7a748d

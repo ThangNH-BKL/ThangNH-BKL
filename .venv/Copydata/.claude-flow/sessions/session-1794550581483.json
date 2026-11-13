@@ -1,0 +1,15 @@
+{
+  "id": "session-1794550581483",
+  "startedAt": "2026-11-13T06:16:21.483Z",
+  "cwd": "D:\\Project_Python\\.venv\\Copydata",
+  "context": {},
+  "metrics": {
+    "edits": 0,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "restoredAt": "2026-11-13T06:23:23.831Z",
+  "endedAt": "2026-11-13T06:25:16.106Z",
+  "duration": 534639
+}

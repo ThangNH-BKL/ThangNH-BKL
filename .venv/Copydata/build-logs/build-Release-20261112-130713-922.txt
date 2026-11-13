@@ -1,0 +1,55 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261112130713
+Username: SEMV-PC\semv
+RunAs User: SEMV-PC\semv
+Configuration Name: 
+Machine: SEMV-PC (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build.ps1 -Configuration Release
+Process ID: 23316
+PSVersion: 5.1.26100.9549
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9549
+BuildVersion: 10.0.26100.9549
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Source: D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync
+Configuration: Release | x64
+CMake: C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe
+Build log: D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-logs\build-Release-20261112-130713-922.txt
+
+=== Configure (VS2022, v143, x64) ===
+-- Check size of __int64
+-- Check size of __int64 - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Check size of ADDRESS_FAMILY
+-- Check size of ADDRESS_FAMILY - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of curl_off_t
+-- Check size of curl_off_t - done
+-- Check size of curl_socket_t
+-- Check size of curl_socket_t - done
+-- Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns mqtt pop3 pop3s rtsp smb smbs smtp smtps
+ telnet tftp ws wss
+-- Features: alt-svc AsynchDNS HSTS HTTPS-proxy IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI threadsafe UnixSockets
+-- Enabled SSL backends: Schannel
+-- Configuring done (74.3s)
+-- Generating done (1.8s)
+-- Build files have been written to: D:/Tool/Copydata/CameraFtpSync/CameraFtpSync-source-1.0.0/CameraFtpSync/build-vs
+
+=== Compile and link ===
+
+PS>TerminatingError(): "Compile and link failed (exit 1). Read the first error above this message."
+
+BUILD FAILED: Compile and link failed (exit 1). Read the first error above this message.
+Required VS2022 components: Desktop development with C++, MSVC v143 x64/x86, Windows SDK, and C++ MFC for latest v143 build tools (x86 & x64).
+Full log: D:\Tool\Copydata\CameraFtpSync\CameraFtpSync-source-1.0.0\CameraFtpSync\build-logs\build-Release-20261112-130713-922.txt
+**********************
+Windows PowerShell transcript end
+End time: 20261112130915
+**********************
